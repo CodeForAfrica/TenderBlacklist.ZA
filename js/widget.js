@@ -56,6 +56,9 @@ TenderBlacklist.fn.load_data = function() {
     TenderBlacklist.data = response;
     TenderBlacklist.fn.search_examples();
     TenderBlacklist.fn.search_enable();
+
+    // pym.js
+    if (typeof pymChild !== 'undefined') { pymChild.sendHeight(); }
   });
 };
 
