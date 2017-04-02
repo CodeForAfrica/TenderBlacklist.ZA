@@ -15,6 +15,11 @@ img {
   max-width: 100%;
 }
 
+nav .navbar-brand img {
+  max-height: 21px;
+  display: inline-block;
+  vertical-align: top;
+}
 
 footer {
 	background: #000;
